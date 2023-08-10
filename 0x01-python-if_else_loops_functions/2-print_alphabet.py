@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """printing alphabets in lowercase"""
 for letter in range(97, 123):
