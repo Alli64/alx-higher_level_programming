@@ -2,7 +2,7 @@
 
 /**
  * print_python_list_info - prints basic info on python lists
- * @p: Pyobject list
+ * @p: PyObject list
  */
 
 void print_python_list_info(PyObject *p)
@@ -19,7 +19,8 @@ void print_python_list_info(PyObject *p)
 	for (i = 0; i < size; i++)
 	{
 		printf("Element %d: ", i);
-		obj = PyList_Getltemp(p, i);
+
+		obj = PyList_GetItem(p, i);
 		printf("%s\n", Py_TYPE(obj)->tp_name);
 	}
 }
