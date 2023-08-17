@@ -17,7 +17,7 @@ def roman_to_int(roman_string):
     list_keys = list(rom_n.keys())
     num = 0
     last_rom = 0
-    list_num = 0
+    list_num = [0]
     for ch in roman_string:
         for r_num in list_keys:
             if r_num == ch:
