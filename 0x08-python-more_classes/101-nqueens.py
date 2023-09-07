@@ -19,11 +19,11 @@ def print_sol(board):
     print()
 
 
-def olve_nqueens(n):
+def solve_nqueens(n):
     """solve N-Queens using backtracking"""
     def backtrack(board, row):
         if row == n:
-            print_solution(board)
+            print_sol(board)
             return
         for col in range(n):
             if is_valid(board, row, col):
@@ -41,7 +41,7 @@ def olve_nqueens(n):
 if __name__ == "__main__":
     from sys import argv
     if len(argv) != 2:
-        print("Usage: nqueenss N")
+        print("Usage: nqueens N")
         exit(1)
     try:
         n = int(argv[1])
