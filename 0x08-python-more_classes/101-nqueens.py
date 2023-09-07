@@ -31,9 +31,6 @@ def solve_nqueens(n):
                 backtrack(board, row + 1)
                 board[row] = -1
 
-    if n < 4:
-        print("N must be at least 4")
-        return
     board = [-1] * n
     backtrack(board, 0)
 
@@ -45,6 +42,9 @@ if __name__ == "__main__":
         exit(1)
     try:
         n = int(argv[1])
+        if n < 4:
+            print("N must be at least 4")
+            exit(1)
         solve_nqueens(n)
     except ValueError:
         print("N must be a number")
