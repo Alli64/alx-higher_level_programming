@@ -1,6 +1,7 @@
 #!/usr/bin/python
 """defines text-indentation function"""
 
+
 def text_indentatiion(text):
     if not isinstance(text, str):
         raise TypeError("text must be a string")
