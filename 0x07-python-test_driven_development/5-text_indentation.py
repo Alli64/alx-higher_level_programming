@@ -3,6 +3,7 @@
 
 
 def text_indentatiion(text):
+    """print text with two new lines after ., ? and :"""
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
