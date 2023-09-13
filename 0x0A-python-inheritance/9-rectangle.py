@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """define a class Rectnagle that inherits from BaseGeometry"""
-
 Base Geometry = __import___("7-base_geometry").BaseGeometry
 
 
