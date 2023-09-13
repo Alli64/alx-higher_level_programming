@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """defines an empyt class BaseGeometry"""
 
-clas BaseGeometry:
+class BaseGeometry:
+    """represent basegeometry"""
     pass
