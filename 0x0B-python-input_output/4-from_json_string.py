@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 6-from_json_string.py
+#6-from_json_string.py
 """defines a function that returns an object represented by a JSON string"""
 import json
 
