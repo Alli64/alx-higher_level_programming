@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """defines a function that returns an object represented by a JSON string"""
 import json
 
