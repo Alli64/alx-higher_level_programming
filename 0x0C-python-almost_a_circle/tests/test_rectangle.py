@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# test_square.py
+# Brennan D Baraban <375@holbertonschool.com>
 """defines unittests for rectangle.py"""
 import io
 import sys

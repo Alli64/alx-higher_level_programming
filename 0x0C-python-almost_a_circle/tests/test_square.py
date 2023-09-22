@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""defines unittests for sqaure.py"""
+# test_square.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""defines unittests for models/sqaure.py"""
 import io
 import sys
 import unittest
