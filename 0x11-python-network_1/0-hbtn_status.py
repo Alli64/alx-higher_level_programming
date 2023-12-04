@@ -2,6 +2,7 @@
 """fetches https://alx-intranet.hbtn.io/status"""
 import urllib.request
 
+
 if _name_ == "__main__":
 
     req = urllib.request.Request("https://alx-intranet.hbtn.io/status")
