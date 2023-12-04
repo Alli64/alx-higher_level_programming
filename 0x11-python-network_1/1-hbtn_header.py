@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""takes in a URL sends request to the URL and displays value of X-Request-Id"""
+"""takes in a URL sends request to the URL and displays value X-R-id"""
 
 import sys
 import urllib.request
